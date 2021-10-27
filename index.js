@@ -9,7 +9,7 @@ const highlightMenu = () => {
         // constant
         const gap = 300;
 
-        // hithlight
+        // highlight
         if(section.offsetTop - gap < window.scrollY) {
             lists.forEach(li => {
                 li.classList.remove('current');
